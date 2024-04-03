@@ -20,6 +20,7 @@ a {
     --nose3: #FFC639;
     --footer:black;
     --anchorfoot:white;
+    --boton:rgb(83, 80, 80);
 }
 
 
@@ -69,7 +70,7 @@ a {
     height: 90vh;
     width: 50vh;
 }
-.magdalena-texto h3{ 
+.magdalena-texto{ 
     background-color: var(--paredheader);
     text-align: center;
 }
@@ -80,7 +81,18 @@ a {
     height: 90vh;
     width: 50vh;
 }
-.santander-texto h3{ 
+.santander-texto { 
+    background-color: var(--paredheader);
+    text-align: center;
+}
+.antioquia-fondo{
+    background-image: url(../../public/img/antioquia.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    width: 50vh;
+}   
+.antioquia-texto { 
     background-color: var(--paredheader);
     text-align: center;
 }
@@ -95,4 +107,16 @@ a {
 }
 .redes a{
     color: var(--anchorfoot);
+}
+.form input{
+    width: 300px;
+    height: 50px;
+}
+
+.boton{
+    border-color: var(--anchorfoot);
+}
+.boton input{
+    height: 30vh;
+    width: 40vh;
 }
